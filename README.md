@@ -1,14 +1,14 @@
 <h2 style="text-align:center" >Right Drive Automotive – Vehicle Complaint Form</h2>
 Overview
 
-Right Drive Automotive is a web-based vehicle complaint form designed to allow customers to easily submit vehicle-related complaints and service concerns. The application collects customer and vehicle information, complaint descriptions, and supporting images. Submitted information is processed and displayed for review.
+Right Drive Automotive is a web-based vehicle complaint form designed to allow customers to easily submit vehicle-related complaints and service concerns. The application collects customer and vehicle information, complaint descriptions, and supporting images. Submitted information is processed and displayed for review.<br/>
 
 <h2 style="text-align:center">Features</h2>
--Customer & Vehicle Complaint Information — Collects the customer's name, email, and phone number, along with vehicle details and a description of their complaint or service concern.<br/>
--Image Upload — Allows customers to upload supporting images related to their complaint.<br/>
--Form Validation — Checks required fields and validates customer-provided information before submission.<br/>
--Submission Confirmation — Displays a confirmation page after the complaint form is successfully submitted.<br/>
--Responsive Design — Provides a simple and user-friendly interface that works across different screen sizes. <br/>
+ 1.Customer & Vehicle Complaint Information — Collects the customer's name, email, and phone number, along with vehicle details and a description of their complaint or service concern.<br/>
+ 2.Image Upload — Allows customers to upload supporting images related to their complaint.<br/>
+ 3.Form Validation — Checks required fields and validates customer-provided information before submission.<br/>
+ 4.Submission Confirmation — Displays a confirmation page after the complaint form is successfully submitted.<br/>
+ 5.Responsive Design — Provides a simple and user-friendly interface that works across different screen sizes. <br/><br/>
 
 <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/5d1b0e97-7901-4af6-9279-1c70e4bec01e" />
 <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/fbfc35e9-0c0f-4be8-a982-0b8f9915cf40" /> <br/>
@@ -19,10 +19,10 @@ Right Drive Automotive is a web-based vehicle complaint form designed to allow c
 2.Clone the repository.<br/>
 3.Open the project folder in Visual Studio Code.<br/>
 4.Install the required dependencies:<br/>
-npm install<br/>
-5.Start the application:<br/>
-node app.js<br/>
-6.Open the application in a web browser using the local server address provided by the application.<br/>
+5.npm install<br/>
+6.Start the application:<br/>
+7.node app.js<br/>
+8.Open the application in a web browser using the local server address provided by the application.<br/>
 <br/>
 <h2 style ="text-align:center"> How It Works</h2>
 1.The customer opens the vehicle complaint form.<br/>
