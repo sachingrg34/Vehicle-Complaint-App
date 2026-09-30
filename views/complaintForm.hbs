@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Right Drive Automotive</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/validation.js" defer></script>
+</head>
+<body>
+ 
+<h2 style="text-align:center;">Right Drive Automotive</h2>
+ <h4 style="text-align: center;">Vehicle Complaint Form</h4>
+
+ <br>
+<form id="complaintForm" action="/submitComplaint" method="POST" enctype="multipart/form-data">
+ 
+   
+    <h4>Customer Information</h4>
+    <label for="fullName">Full Name<span class="required">*</span></label> <br/>
+            <input type="text" id="fullName" name="fullName">
+                  <span id="fullNameError" class="error"></span>  <br/>
+
+
+
+    <label for="email">Email<span class="required">*</span></label> <br/>
+        <input type="email" id="email" name="email">
+            <span id="emailError" class="error"></span>   <br/>
+                          
+   <label for="phone">Phone<span class="required">*</span></label> <br/>
+            <input type="text" id="phone" name="phone">
+              <span id="phoneError" class="error"></span> <br/>
+ 
+  
+    <label for="vehicleMake">Vehicle Make<span class="required">*</span></label> <br/>
+            <input type="text" id="vehicleMake" name="vehicleMake">
+               <span id="vehicleMakeError" class="error"></span><br/>
+    
+   <label for="vehicleModel">Vehicle Model<span class="required">*</span></label> <br/>
+
+    <input type="text" id="vehicleModel" name="vehicleModel">
+               <span id="vehicleModelError" class="error"></span><br/>
+
+    <label for="vin">VIN<span class="required">*</span></label> <br/>
+
+    <input type="text" id="vin" name="vin">
+       <span id="vinError" class="error"></span><br/>
+ 
+   
+    <label for="subject">Subject<span class="required">*</span></label> <br/>
+
+  <input type="text" id="subject" name="subject">
+     <span id="subjectError" class="error"></span> <br/>
+
+
+    <label for="cDescription">Complaint Description<span class="required">*</span></label>
+    <textarea id="description" name="description" rows="5" ></textarea>
+          <span id="descriptionError" class="error"></span>
+ 
+    
+ 
+              
+        <input type="file" id="image" name="image" accept="image/*">
+            <span id="imageError" class="error"></span> <br/>
+                 <button type="submit">Submit</button>
+
+    
+</form>
+ 
+
+ 
+</body>
+</html>

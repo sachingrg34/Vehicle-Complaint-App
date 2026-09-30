@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Submitted</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+   <a href="/" class="back"> ← Go back</a>
+    
+  <div class="container">
+   
+       <div class="display_container">
+     
+
+         <h2><span> Submitted Successfully ✓  </span></h2>  
+
+         <strong>Your Complaint has been submitted successfully.</strong>
+
+    
+    <strong><p>Your Details</p>
+
+    <p>
+        Name:
+        {{complaint.fullName}}
+    </p>
+
+    <p>
+        Email:
+        {{complaint.email}}
+    </p>
+
+    <p>
+        Phone:
+        {{complaint.phone}}
+    </p>
+
+  
+    <p>
+        Vehicle Make:
+        {{complaint.vehicleMake}}
+    </p>
+
+    <p>
+        Vehicle Model:
+        {{complaint.vehicleModel}}
+    </p>
+
+    <p>
+        VIN:
+        {{complaint.vin}}
+    </p>
+
+    
+
+    <p>
+        Subject:
+        {{complaint.subject}}
+    </p>
+
+    <p>
+        Description:
+        {{complaint.description}}
+    </p>
+
+    {{#if complaint.image}}
+
+
+
+       <img
+         src="{{complaint.image}}"
+                 alt="Complaint Image"
+                           width="300">
+                  
+</a>
+    {{/if}}
+
+  
+
+    <p>
+        Expected Review Date:
+        {{reviewDate}}
+    </p>
+</strong>
+    <br>
+</div>
+    
+</div>
+</body>
+</html>
