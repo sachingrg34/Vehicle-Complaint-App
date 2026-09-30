@@ -8,16 +8,16 @@ const path = require("path");
 const app = express();
 const PORT = 3000;
  
-// Security
+
 app.use(helmet());
  
-// Static files
+
 app.use(express.static("public"));
 app.use("/uploads", express.static("uploads"));
  
 app.use(express.urlencoded({ extended: true }));
  
-// Handlebars Setup
+
 app.engine(
   "hbs",
   engine({
@@ -45,7 +45,7 @@ app.engine(
 app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, "views"));
  
-// Multer Setup
+
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "uploads/");
@@ -58,12 +58,11 @@ const storage = multer.diskStorage({
  
 const upload = multer({ storage });
  
-// Home Page
+
 app.get("/", (req, res) => {
   res.render("complaintForm");
 });
- 
-// Form Submission
+
 app.post(
   "/submitComplaint",
   upload.single("image"),
