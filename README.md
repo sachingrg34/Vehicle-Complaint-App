@@ -1,7 +1,7 @@
 <h2 style="text-align:center" >Right Drive Automotive – Vehicle Complaint Form</h2>
 Overview
 
-Right Drive Automotive is a web-based vehicle complaint form designed to allow customers to easily submit vehicle-related complaints and service concerns. The application collects customer and  vehicle information, complaint descriptions, and supporting images. Submitted information is processed and displayed for review.<br/>
+Right Drive Automotive is a web-based vehicle complaint form designed to allow customers to easily submit vehicle-related complaints and service concerns. The application collects customer and vehicle information, complaint descriptions, and supporting images. Submitted information is processed and displayed for review.<br/>
 
 <h2 style="text-align:center">Features</h2>
  1.Customer & Vehicle Complaint Information: Collects the customer's name, email, and phone number, along with vehicle details and a description of their complaint or service concern.<br/>
