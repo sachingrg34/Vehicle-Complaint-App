@@ -1,20 +1,20 @@
-Right Drive Automotive – Vehicle Complaint Form
+<h2 style="text-align:center" >Right Drive Automotive – Vehicle Complaint Form</h2>
 Overview
 
 Right Drive Automotive is a web-based vehicle complaint form designed to allow customers to easily submit vehicle-related complaints and service concerns. The application collects customer and vehicle information, complaint descriptions, and supporting images. Submitted information is processed and displayed for review.
 
-Features 
+<h2 style="text-align:center">Features</h2>
 -Customer & Vehicle Complaint Information — Collects the customer's name, email, and phone number, along with vehicle details and a description of their complaint or service concern.
 -Image Upload — Allows customers to upload supporting images related to their complaint.
 -Form Validation — Checks required fields and validates customer-provided information before submission.
 -Submission Confirmation — Displays a confirmation page after the complaint form is successfully submitted.
 -Responsive Design — Provides a simple and user-friendly interface that works across different screen sizes.
 
-<img width="975" height="547" alt="image" src="https://github.com/user-attachments/assets/5d1b0e97-7901-4af6-9279-1c70e4bec01e" />
-<img width="975" height="513" alt="image" src="https://github.com/user-attachments/assets/fbfc35e9-0c0f-4be8-a982-0b8f9915cf40" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/5d1b0e97-7901-4af6-9279-1c70e4bec01e" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/fbfc35e9-0c0f-4be8-a982-0b8f9915cf40" />
 
 
-How to Run the Application
+<h2 style="text-align:center"> How to Run the Application </h2>
 1.Install Node.js.
 2.Clone the repository.
 3.Open the project folder in Visual Studio Code.
