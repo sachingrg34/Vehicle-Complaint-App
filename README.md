@@ -8,10 +8,10 @@ Right Drive Automotive is a web-based vehicle complaint form designed to allow c
 -Image Upload — Allows customers to upload supporting images related to their complaint.
 -Form Validation — Checks required fields and validates customer-provided information before submission.
 -Submission Confirmation — Displays a confirmation page after the complaint form is successfully submitted.
--Responsive Design — Provides a simple and user-friendly interface that works across different screen sizes.
+-Responsive Design — Provides a simple and user-friendly interface that works across different screen sizes. <br/>
 
 <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/5d1b0e97-7901-4af6-9279-1c70e4bec01e" />
-<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/fbfc35e9-0c0f-4be8-a982-0b8f9915cf40" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/fbfc35e9-0c0f-4be8-a982-0b8f9915cf40" /> <br/>
 
 
 <h2 style="text-align:center"> How to Run the Application </h2>
@@ -23,6 +23,7 @@ npm install
 5.Start the application:
 node app.js
 6.Open the application in a web browser using the local server address provided by the application.
+<br/>
 
 
 How It Works
@@ -33,6 +34,7 @@ How It Works
 5.The customer can upload an image related to the complaint.
 6.The application validates the submitted information.
 7.After successful submission, a confirmation page displays the submitted complaint information.
+<br/>
 Future Improvements
 1.Store complaints in a database
 2.Add customer login and account management
